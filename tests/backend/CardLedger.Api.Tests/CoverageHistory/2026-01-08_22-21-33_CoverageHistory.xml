@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<coverage version="1.0" date="2026-01-08_22-21-33" tag="">
+  <assembly name="CardLedger.Api">
+    <class name="CardLedger.Api.Application.Commands.CreateCardCommand" coveredlines="4" coverablelines="4" totallines="30" coveredbranches="0" totalbranches="0" coveredcodeelements="4" fullcoveredcodeelements="4" totalcodeelements="4" />
+    <class name="CardLedger.Api.Application.Commands.CreateCardHandler" coveredlines="17" coverablelines="17" totallines="47" coveredbranches="9" totalbranches="10" coveredcodeelements="2" fullcoveredcodeelements="2" totalcodeelements="2" />
+    <class name="CardLedger.Api.Application.Commands.CreatePurchaseCommand" coveredlines="7" coverablelines="7" totallines="44" coveredbranches="0" totalbranches="0" coveredcodeelements="7" fullcoveredcodeelements="7" totalcodeelements="7" />
+    <class name="CardLedger.Api.Application.Commands.CreatePurchaseHandler" coveredlines="36" coverablelines="36" totallines="66" coveredbranches="8" totalbranches="8" coveredcodeelements="2" fullcoveredcodeelements="2" totalcodeelements="2" />
+    <class name="CardLedger.Api.Application.DTOs.AvailableBalanceDto" coveredlines="9" coverablelines="9" totallines="14" coveredbranches="0" totalbranches="0" coveredcodeelements="8" fullcoveredcodeelements="8" totalcodeelements="8" />
+    <class name="CardLedger.Api.Application.DTOs.CardDto" coveredlines="1" coverablelines="1" totallines="6" coveredbranches="0" totalbranches="0" coveredcodeelements="1" fullcoveredcodeelements="1" totalcodeelements="1" />
+    <class name="CardLedger.Api.Application.DTOs.CreateCardRequest" coveredlines="3" coverablelines="3" totallines="22" coveredbranches="0" totalbranches="0" coveredcodeelements="3" fullcoveredcodeelements="3" totalcodeelements="3" />
+    <class name="CardLedger.Api.Application.DTOs.CreatePurchaseRequest" coveredlines="4" coverablelines="4" totallines="27" coveredbranches="0" totalbranches="0" coveredcodeelements="4" fullcoveredcodeelements="4" totalcodeelements="4" />
+    <class name="CardLedger.Api.Application.DTOs.PurchaseDto" coveredlines="11" coverablelines="11" totallines="16" coveredbranches="0" totalbranches="0" coveredcodeelements="10" fullcoveredcodeelements="10" totalcodeelements="10" />
+    <class name="CardLedger.Api.Application.Queries.GetAvailableBalanceHandler" coveredlines="28" coverablelines="28" totallines="57" coveredbranches="5" totalbranches="6" coveredcodeelements="2" fullcoveredcodeelements="2" totalcodeelements="2" />
+    <class name="CardLedger.Api.Application.Queries.GetAvailableBalanceQuery" coveredlines="1" coverablelines="1" totallines="9" coveredbranches="0" totalbranches="0" coveredcodeelements="1" fullcoveredcodeelements="1" totalcodeelements="1" />
+    <class name="CardLedger.Api.Application.Queries.GetPurchaseHandler" coveredlines="35" coverablelines="35" totallines="62" coveredbranches="7" totalbranches="8" coveredcodeelements="2" fullcoveredcodeelements="2" totalcodeelements="2" />
+    <class name="CardLedger.Api.Application.Queries.GetPurchaseQuery" coveredlines="1" coverablelines="1" totallines="9" coveredbranches="0" totalbranches="0" coveredcodeelements="1" fullcoveredcodeelements="1" totalcodeelements="1" />
+    <class name="CardLedger.Api.Controllers.CardLedgerController" coveredlines="25" coverablelines="33" totallines="101" coveredbranches="4" totalbranches="4" coveredcodeelements="3" fullcoveredcodeelements="3" totalcodeelements="5" />
+    <class name="CardLedger.Api.Domain.Card" coveredlines="6" coverablelines="7" totallines="37" coveredbranches="0" totalbranches="0" coveredcodeelements="4" fullcoveredcodeelements="4" totalcodeelements="5" />
+    <class name="CardLedger.Api.Domain.CardRow" coveredlines="6" coverablelines="6" totallines="42" coveredbranches="0" totalbranches="0" coveredcodeelements="6" fullcoveredcodeelements="6" totalcodeelements="6" />
+    <class name="CardLedger.Api.Domain.JsonFxRateRow" coveredlines="3" coverablelines="3" totallines="29" coveredbranches="0" totalbranches="0" coveredcodeelements="3" fullcoveredcodeelements="3" totalcodeelements="3" />
+    <class name="CardLedger.Api.Domain.LedgerEntry" coveredlines="10" coverablelines="10" totallines="68" coveredbranches="0" totalbranches="0" coveredcodeelements="10" fullcoveredcodeelements="10" totalcodeelements="10" />
+    <class name="CardLedger.Api.Domain.LedgerEntryRow" coveredlines="13" coverablelines="13" totallines="66" coveredbranches="0" totalbranches="0" coveredcodeelements="11" fullcoveredcodeelements="11" totalcodeelements="11" />
+    <class name="CardLedger.Api.Infrastructure.CardLedgerRepository" coveredlines="40" coverablelines="123" totallines="336" coveredbranches="1" totalbranches="12" coveredcodeelements="7" fullcoveredcodeelements="2" totalcodeelements="9" />
+    <class name="CardLedger.Api.Infrastructure.DbInitializer" coveredlines="0" coverablelines="25" totallines="54" coveredbranches="0" totalbranches="8" coveredcodeelements="0" fullcoveredcodeelements="0" totalcodeelements="2" />
+    <class name="CardLedger.Api.Infrastructure.MoneyFormatting" coveredlines="19" coverablelines="22" totallines="51" coveredbranches="6" totalbranches="6" coveredcodeelements="2" fullcoveredcodeelements="1" totalcodeelements="2" />
+    <class name="CardLedger.Api.Infrastructure.NpgsqlConnectionFactory" coveredlines="6" coverablelines="6" totallines="23" coveredbranches="2" totalbranches="2" coveredcodeelements="2" fullcoveredcodeelements="2" totalcodeelements="2" />
+    <class name="CardLedger.Api.Infrastructure.ProblemDetailsExtensions" coveredlines="17" coverablelines="17" totallines="37" coveredbranches="8" totalbranches="8" coveredcodeelements="1" fullcoveredcodeelements="1" totalcodeelements="1" />
+    <class name="CardLedger.Api.Infrastructure.UuidV7" coveredlines="14" coverablelines="14" totallines="37" coveredbranches="0" totalbranches="0" coveredcodeelements="1" fullcoveredcodeelements="1" totalcodeelements="1" />
+    <class name="CardLedger.Api.Services.FxRateRow" coveredlines="1" coverablelines="1" totallines="78" coveredbranches="0" totalbranches="0" coveredcodeelements="1" fullcoveredcodeelements="1" totalcodeelements="1" />
+    <class name="CardLedger.Api.Services.JsonFxRateProvider" coveredlines="22" coverablelines="30" totallines="78" coveredbranches="6" totalbranches="18" coveredcodeelements="3" fullcoveredcodeelements="2" totalcodeelements="3" />
+    <class name="Program/&lt;&lt;Main&gt;$&gt;d__0" coveredlines="0" coverablelines="43" totallines="60" coveredbranches="0" totalbranches="0" coveredcodeelements="0" fullcoveredcodeelements="0" totalcodeelements="1" />
+  </assembly>
+  <assembly name="MoneyDataType">
+    <class name="MoneyDataType.CurrencyMismatchException" coveredlines="0" coverablelines="12" totallines="28" coveredbranches="0" totalbranches="0" coveredcodeelements="0" fullcoveredcodeelements="0" totalcodeelements="4" />
+    <class name="MoneyDataType.MissingCurrencyCodeException" coveredlines="0" coverablelines="7" totallines="18" coveredbranches="0" totalbranches="0" coveredcodeelements="0" fullcoveredcodeelements="0" totalcodeelements="3" />
+    <class name="MoneyDataType.Money" coveredlines="60" coverablelines="241" totallines="390" coveredbranches="20" totalbranches="102" coveredcodeelements="13" fullcoveredcodeelements="7" totalcodeelements="40" />
+    <class name="MoneyDataType.MoneyWordFormatter" coveredlines="0" coverablelines="141" totallines="205" coveredbranches="0" totalbranches="60" coveredcodeelements="0" fullcoveredcodeelements="0" totalcodeelements="9" />
+  </assembly>
+</coverage>

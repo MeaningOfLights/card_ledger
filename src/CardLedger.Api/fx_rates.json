@@ -1,0 +1,42 @@
+[
+  {
+    "currency": "EUR",
+    "rateDate": "2026-03-23",
+    "usdToCurrency": 0.91
+  },
+  {
+    "currency": "EUR",
+    "rateDate": "2025-11-30",
+    "usdToCurrency": 0.92
+  },
+  {
+    "currency": "AUD",
+    "rateDate": "2026-05-30",
+    "usdToCurrency": 1.48
+  },
+  {
+    "currency": "AUD",
+    "rateDate": "2025-12-31",
+    "usdToCurrency": 1.48
+  },
+  {
+    "currency": "AUD",
+    "rateDate": "2025-10-30",
+    "usdToCurrency": 1.52
+  },
+  {
+    "currency": "GBP",
+    "rateDate": "2026-02-28",
+    "usdToCurrency": 0.81
+  },
+  {
+    "currency": "GBP",
+    "rateDate": "2025-12-31",
+    "usdToCurrency": 0.79
+  },
+  {
+    "currency": "USD",
+    "rateDate": "2025-12-31",
+    "usdToCurrency": 1
+  }
+]
