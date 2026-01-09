@@ -193,7 +193,6 @@ Due to time constraints this was omitted. I would have implemented Open Telemetr
 
 - The API is intentionally strict (validation + ProblemDetails responses).
 - Postgres schema is idempotent and created on startup.
-- UUIDv7 values are generated in the API (see `Infrastructure/UuidV7.cs`).
+- UUIDv7 values are generated in the API (see `Infrastructure/UuidV7.cs`), if the Client doesn't send one.
 
-## TO DO
 
