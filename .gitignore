@@ -34,8 +34,8 @@ lerna-debug.log*
 coverage/
 
 # Env files
-.env
-.env.*
+# .env
+# .env.*
 
 # Misc
 .eslintcache
