@@ -175,10 +175,10 @@ For this take-home we do not run a background publisher.
 
 ## Testing
 
-Result: 84% Coverage  ./tests/backend/CardLedger.Api.Tests/coveragereport/index.html
-Priority: Building up a regression testing suite.
-Trade-offs: Due to the time limit I dummied coverage for low-risk boilerplate code, (eg DTOs, Config) to not skew results.
-Next steps: With more time I woulld expand the coverage with better dB integration tests such as as In-Memory Postgres dB (when it becomes available).
+- Result: 84% Coverage  ./tests/backend/CardLedger.Api.Tests/coveragereport/index.html  
+- Priority: Building up a regression testing suite.  
+- Trade-offs: Due to the time limit I dummied coverage for low-risk boilerplate code, (eg DTOs, Config) to not skew results.  
+- Next steps: With more time I woulld expand the coverage with better dB integration tests such as as In-Memory Postgres dB (when it becomes available).  
 
 ---
 
@@ -193,7 +193,5 @@ Due to time constraints this was omitted. I would have implemented Open Telemetr
 
 - The API is intentionally strict (validation + ProblemDetails responses).
 - Postgres schema is idempotent and created on startup.
-- UUIDv7 values are generated in the API (see `Infrastructure/UuidV7.cs`).
 
-## TO DO
 
